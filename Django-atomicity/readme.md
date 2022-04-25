@@ -10,7 +10,7 @@
 
 3. Crear una nueva aplicación llamada 'bank'
 
-4. Crear el modelo del cliente del banco dentro de models.proyecto
+4. Crear el modelo del cliente del banco dentro de **models.py**
 
 
 	```
@@ -29,7 +29,7 @@
 
 	<br>
 
-5. Crear un template de formulario creando el archivo forms.py:
+5. Crear un template de formulario creando el archivo **forms.py**:
 
 	```
 	from django import forms
