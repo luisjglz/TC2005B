@@ -5,10 +5,22 @@
 
 1. Crear un nuevo proyecto de Django.
 
+```
+django-admin startproject bankacid .
+```
 
 2. Hacer migraciones y crear superuser.
 
+```
+python3 manage.py migrate
+python3 manage.py createsuperuser
+```
+
 3. Crear una nueva aplicación llamada 'bank'
+
+```
+django-admin startapp bank
+```
 
 4. Crear el modelo del cliente del banco dentro de **models.py**
 
