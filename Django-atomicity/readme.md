@@ -22,6 +22,20 @@ python3 manage.py createsuperuser
 django-admin startapp bank
 ```
 
+NOTA: Añadir la aplicación al proyecto en **settings.py**:
+```
+INSTALLED_APPS = [
+    'bank',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
+
+
 4. Crear el modelo del cliente del banco dentro de **models.py**
 
 
