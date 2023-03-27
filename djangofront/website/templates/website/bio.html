@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1 style="color:#1465b5">Clase</h1>
+    <p class="titulo subrayado" id="t1">LJ</p>
+    <p class="subrayado">ljgonzal</p>
+    <p class="subrayado">TC2005B</p>
+    <br>
+    <br>
+    <a href="{% url 'index' %}">Ir a home</a>
+</body>
+</html>

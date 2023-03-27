@@ -1,0 +1,13 @@
+#t1{
+    color: blue;
+}
+.titulo{
+    color: red;
+}
+p{
+    color: green;
+    font-style: italic;
+}
+.subrayado{
+    text-decoration: underline;
+}

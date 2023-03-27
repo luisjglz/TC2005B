@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1 style="color:#1465b5">Hola mundo</h1>
+    <p class="titulo subrayado" id="t1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="subrayado">Nobis a exercitationem sint eaque possimus recusandae excepturi aut, quaerat, sunt illo animi.</p>
+    <p class="subrayado">Aliquid molestiae libero quibusdam ab necessitatibus fugit deleniti quas?</p>
+    <br>
+    <br>
+    <a href="{% url 'bio' %}">Ir a bio</a>
+    <br>
+    <br>
+    <a href="{% url 'page' %}">Ir a page</a>
+</body>
+</html>
