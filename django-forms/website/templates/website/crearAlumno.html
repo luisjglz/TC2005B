@@ -1,0 +1,12 @@
+{% if msj %}
+<p>{{ msj }}</p>
+{% endif %}
+<form action="nuevoAlumno" method="post">
+    {% csrf_token %}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Guardar">
+</form>
+
+
